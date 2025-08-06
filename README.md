@@ -14,7 +14,8 @@ You can view the frontend implementations that consume this API here:
 
 👉 [Live Weather App](https://weather-bygus.vercel.app/) 
 
-🧩 Features
+
+## 🧩 Features
 - RESTful API design following Django REST Framework standards.
 
 - Endpoints to fetch weather information such as temperature, humidity, and wind speed.
@@ -25,12 +26,14 @@ You can view the frontend implementations that consume this API here:
 
 - Scalable and extensible setup for future data sources or external APIs.
 
+
 ## 🛠 Technologies Used
 - Backend: Python, Django, Django REST Framework
 
 - Environment: SQLite (for development), Gunicorn (for production)
 
 - Other: Django CORS Headers, requests module (if consuming third-party APIs)
+
 
 ## ▶️ How to Run This Project
 1. Clone the repository:
@@ -50,6 +53,7 @@ You can view the frontend implementations that consume this API here:
 
 - The API will be available at http://localhost:8000.
 
+
 ## 🔌 Main Endpoints
 - GET /api/weather/ – Returns the current weather data.
 
@@ -58,6 +62,7 @@ You can view the frontend implementations that consume this API here:
 - GET /api/weather/get_place/ – Returns weather data for a specific city by putting the name of the city.
 
 - GET /api/weather/get_astronomy/ – Returns weather data for a specific city and country by putting the name of the city or country and returns information related to the astronomy close to that country.
+
 
 ## 🧪 Future Improvements
 - Add token-based authentication (e.g., JWT).
