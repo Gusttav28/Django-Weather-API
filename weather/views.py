@@ -18,7 +18,7 @@ class weatherView(viewsets.ViewSet):
             url = f"http://api.weatherapi.com/v1/current.json?key=bdedcc2092b24167a9e164011251806&q={user_city}&aqi=no"
             response = requests.get(url)
             data = response.json()
-            return Response(data)
+            return Response(data, status=status.HTTP_200_OK)
         
        
         
@@ -33,7 +33,7 @@ class weatherView(viewsets.ViewSet):
             url = f"http://api.weatherapi.com/v1/timezone.json?key=bdedcc2092b24167a9e164011251806&q={user_city}"
             response = requests.get(url)
             data = response.json()
-            return Response(data)
+            return Response(data, status=status.HTTP_200_OK)
 
 
 
@@ -49,5 +49,5 @@ class weatherView(viewsets.ViewSet):
             url = f" http://api.weatherapi.com/v1/astronomy.json?key=bdedcc2092b24167a9e164011251806&q={user_city}&dt=2025-06-18 "
             response = requests.get(url)
             data = response.json()
-            return Response(data)
+            return Response(data, status=status.HTTP_200_OK)
         
