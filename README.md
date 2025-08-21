@@ -14,7 +14,7 @@ You can view the frontend implementations that consume this API here:
 
 To test this API in action, visit the live deployed frontend:
 
-👉 [Live Weather App](weather-bygus.vercel.app)
+👉 [Live Weather App](https://weather-bygus.vercel.app/)
 +2]
 
 ## 🧩 Features
